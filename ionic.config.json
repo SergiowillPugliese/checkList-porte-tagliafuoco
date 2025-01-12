@@ -1,0 +1,7 @@
+{
+  "name": "CheckList porte tagliafuoco",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
