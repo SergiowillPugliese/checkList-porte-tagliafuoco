@@ -14,16 +14,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have the 'checkListPorteTagliafuoco' title`, () => {
+  it(`should have the 'check-list-porte-tagliafuoco' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('checkListPorteTagliafuoco');
+    expect(app.title).toEqual('check-list-porte-tagliafuoco');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, checkListPorteTagliafuoco');
+    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, check-list-porte-tagliafuoco');
   });
 });
